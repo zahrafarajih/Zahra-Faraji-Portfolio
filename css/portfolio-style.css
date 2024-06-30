@@ -137,6 +137,7 @@ hr {
     .design,
     .main-content {
         width: 100%;
+        flex: 0 0 100%;
         padding: 15px;
         justify-content: center;
         align-items: center;

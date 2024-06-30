@@ -8,8 +8,8 @@ var typed = new Typed(".typing", {
 
 document.getElementById('downloadButton').addEventListener('click', function() {
     const link = document.createElement('a');
-    link.href = '/CV.pdf'; // Path to your PDF file
-    link.download = '/CV.pdf'; // The name to save the file as
+    link.href = 'CV.pdf'; // Path to your PDF file
+    link.download = 'CV.pdf'; // The name to save the file as
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);

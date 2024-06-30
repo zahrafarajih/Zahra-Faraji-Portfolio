@@ -131,4 +131,8 @@ hr {
         font-size: 14px;
         margin-bottom: 30px;
     }
+    .main-content {
+        width: 100%;
+        flex: 0 0 100%;
+    }
 }

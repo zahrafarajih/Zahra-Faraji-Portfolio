@@ -131,16 +131,15 @@ hr {
         font-size: 14px;
         margin-bottom: 30px;
     }
-    .main-container {
+    .main-container,
+    .header,
+    .research,
+    .design,
+    .main-content {
         width: 100%;
-        flex: 0 0 100%;
         padding: 15px;
         justify-content: center;
         align-items: center;
         text-align: center;
-    }
-    .main-content {
-        width: 100%;
-        flex: 0 0 100%;
     }
 }

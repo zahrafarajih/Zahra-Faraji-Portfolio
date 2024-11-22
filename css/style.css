@@ -363,7 +363,7 @@ h3.my-profession {
 
 .about .about-content .skills {
     flex: 0 0 100%;
-    max-width: 50%;
+    max-width: 100%;
     margin-top: 20px;
     padding-left: 10px;
 }

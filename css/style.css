@@ -121,7 +121,7 @@ ul {
     font-weight: 500;
     padding: 12px 35px;
     color: white;
-    border-radius: 40px;
+    border-radius: 15px;
     display: inline-block;
     white-space: nowrap;
     border: none;
@@ -131,11 +131,11 @@ ul {
 
 .btn:hover {
     cursor: pointer;
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(48, 46, 77, 0.5);
 }
 
-.btn:hover {
-    transform: scale(1.05);
-}
+.btn:hover {}
 
 .shadow-dark {
     box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);

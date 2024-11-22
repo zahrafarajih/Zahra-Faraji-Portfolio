@@ -8,7 +8,7 @@ var typed = new Typed(".typing", {
 
 document.getElementById('downloadButton').addEventListener('click', function() {
     const link = document.createElement('a');
-    link.href = './Zahra-CV'; // Path to your PDF file
+    link.href = 'Zahra-CV.pdf'; // Path to your PDF file
     link.download = 'Zahra-CV.pdf'; // The name to save the file as
     document.body.appendChild(link);
     link.click();

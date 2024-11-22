@@ -14,6 +14,15 @@ document.getElementById('downloadButton').addEventListener('click', function() {
     link.click();
     document.body.removeChild(link);
 });
+document.getElementById('downloadButtonIt').addEventListener('click', function() {
+    const link = document.createElement('a');
+    link.href = 'Zahra-Italian-CV.pdf';
+    link.download = 'Zahra-Italian-CV.pdf';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+});
+
 
 // open image in new page
 document.addEventListener("DOMContentLoaded", function() {

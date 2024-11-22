@@ -135,7 +135,10 @@ ul {
     box-shadow: 0 0 20px rgba(48, 46, 77, 0.5);
 }
 
-.btn:hover {}
+.btns {
+    display: flex;
+    gap: 40px;
+}
 
 .shadow-dark {
     box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);

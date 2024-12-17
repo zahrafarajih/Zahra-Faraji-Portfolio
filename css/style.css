@@ -18,6 +18,7 @@ body.dark {
 body {
     line-height: 1.5;
     font-size: 18px;
+    text-align: justify;
     font-family: 'Copperplate', sans-serif;
 }
 
@@ -774,5 +775,14 @@ h3.my-profession {
         margin-top: 45px;
         font-size: 12px;
         font-weight: 450;
+    }
+    .hello {
+        display: none;
+    }
+    .btns {
+        gap: 16px;
+    }
+    .btn {
+        padding: 12px 24px;
     }
 }

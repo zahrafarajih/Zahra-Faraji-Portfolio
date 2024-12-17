@@ -7,6 +7,10 @@
     --text-black-700: #504e70;
 }
 
+body {
+    text-align: justify;
+}
+
 body.dark {
     --bg-black-900: #151515;
     --bg-black-100: #222222;
@@ -144,5 +148,8 @@ hr {
     }
     .header h1 {
         font-size: 3rem;
+    }
+    .bg-img {
+        display: none;
     }
 }

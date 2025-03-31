@@ -263,8 +263,8 @@ ul {
 }
 
 .home .home-info {
-    flex: 0 0 60%;
-    max-width: 60%;
+    flex: 0 0 40%;
+    max-width: 40%;
 }
 
 h3.hello {
@@ -295,38 +295,18 @@ h3.my-profession {
 }
 
 .home .home-img {
-    flex: 0 0 40%;
-    max-width: 40%;
+    flex: 0 0 50%;
+    max-width: 50%;
     text-align: center;
     position: relative;
 }
 
-.home-img::after {
-    content: '';
-    position: absolute;
-    height: 80px;
-    width: 80px;
-    border-bottom: 10px solid var(--skin-color);
-    border-right: 10px solid var(--skin-color);
-    right: 60px;
-    bottom: -20px;
-}
 
-.home-img::before {
-    content: '';
-    position: absolute;
-    height: 80px;
-    width: 80px;
-    border-top: 10px solid var(--skin-color);
-    border-left: 10px solid var(--skin-color);
-    left: 60px;
-    top: -30px;
-}
 
 .home .home-img img {
     margin: auto;
-    border-radius: 5px;
-    height: 400px;
+    width: 80%;
+    height: 80%;
 }
 
 
